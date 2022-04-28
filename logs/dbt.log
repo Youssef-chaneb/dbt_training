@@ -25,3 +25,14 @@ Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
 Happy modeling!
 
 15:45:25.181258 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BFC0B51040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BFC0B5E430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BFC0E71A30>]}
+
+
+============================== 2022-04-28 16:54:20.772540 | 68f38d44-b16a-41e8-a677-3a107e833c23 ==============================
+16:54:20.772540 [info ] [MainThread]: Running with dbt=1.0.6
+16:54:20.772540 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\Youssef\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=True, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+16:54:20.779861 [debug] [MainThread]: Tracking: tracking
+16:54:20.811864 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201364C9940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201364C9D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201364AEE20>]}
+16:54:20.811864 [info ] [MainThread]: To view your profiles.yml file, run:
+
+start C:\Users\Youssef\.dbt
+16:54:20.819863 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201364C9970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201364AEC70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201364AECD0>]}
